@@ -41,10 +41,10 @@ const ArticleDetails = () => {
   return (
     <Container>
       <Row className="mt-5">
-        <Col xs={12} md={6} style={{ overflow: "hidden" }}>
+        <Col xs={12} md={4} style={{ overflow: "hidden" }}>
           <img src={details?.imageUrl} alt="" style={{ height: "350px" }} />
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={8}>
           <ListGroup>
             <ListGroup.Item>
               <h1>{details?.title}</h1>
