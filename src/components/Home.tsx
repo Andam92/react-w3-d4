@@ -39,7 +39,7 @@ const MyHome = () => {
   return (
     <>
       {articles &&
-        articles.map((article, i) => (
+        articles.map((article) => (
           <MyArticles
             key={article.id}
             imageURL={article.imageUrl}
@@ -47,6 +47,7 @@ const MyHome = () => {
             summary={article.summary}
             title={article.title}
             url={article.url}
+            id={article.id}
           />
         ))}
     </>
